@@ -8,7 +8,8 @@ class Dvd:
         return self._tittel
 
     def __eq__(self,andre):
-        return (self._tittel == andre._tittel) and (self._produsent == andre._produsent) and (self._utgaveNummer == andre._utgaveNummer)
+        return (self._tittel == andre._tittel) and (self._produsent == andre._produsent)\
+            and (self._utgaveNummer == andre._utgaveNummer)
 
 '''
 TEST av Dvd klassen 
