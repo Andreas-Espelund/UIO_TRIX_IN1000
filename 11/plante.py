@@ -21,5 +21,8 @@ flor2 = Plante(90)
 
 planteliste = [flor,flor2]
 
-for elm in planteliste:
-    
+for plante in planteliste:
+    plante.vannPlante(10)
+    plante.nyDag()
+    plante.nyDag()
+    print(plante.levende())
